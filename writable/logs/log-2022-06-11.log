@@ -1,0 +1,120 @@
+ERROR - 2022-06-11 00:23:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1
+ERROR - 2022-06-11 00:24:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1
+ERROR - 2022-06-11 00:25:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1
+ERROR - 2022-06-11 00:26:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1
+CRITICAL - 2022-06-11 01:48:29 --> Call to undefined method App\Models\OrangModel::pager
+#0 C:\xampp\htdocs\ci4\app\Controllers\Orang.php(21): CodeIgniter\Model->__call('pager', Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Orang->index()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 01:50:00 --> Undefined property: CodeIgniter\Pager\Pager::$links
+#0 C:\xampp\htdocs\ci4\app\Views\orang\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('orang/index', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Orang.php(24): view('orang/index', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Orang->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-11 01:58:22 --> Invalid file: App\Views\Pager\orang_pagination.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pager...')
+#1 C:\xampp\htdocs\ci4\system\Pager\Pager.php(125): CodeIgniter\View\View->render('App\\Views\\Pager...')
+#2 C:\xampp\htdocs\ci4\system\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('orang', 'orang_paginatio...')
+#3 C:\xampp\htdocs\ci4\app\Views\orang\index.php(29): CodeIgniter\Pager\Pager->links('orang', 'orang_paginatio...')
+#4 C:\xampp\htdocs\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('orang/index', Array, true)
+#7 C:\xampp\htdocs\ci4\app\Controllers\Orang.php(24): view('orang/index', Array)
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Orang->index()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-06-11 01:59:42 --> Invalid file: App\Views\Pager\orang_pagination.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pager...')
+#1 C:\xampp\htdocs\ci4\system\Pager\Pager.php(125): CodeIgniter\View\View->render('App\\Views\\Pager...')
+#2 C:\xampp\htdocs\ci4\system\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('orang', 'orang_paginatio...')
+#3 C:\xampp\htdocs\ci4\app\Views\orang\index.php(29): CodeIgniter\Pager\Pager->links('orang', 'orang_paginatio...')
+#4 C:\xampp\htdocs\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('orang/index', Array, true)
+#7 C:\xampp\htdocs\ci4\app\Controllers\Orang.php(24): view('orang/index', Array)
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Orang->index()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-06-11 01:59:49 --> Invalid file: App\Views\Pager\orang_pagination.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pager...')
+#1 C:\xampp\htdocs\ci4\system\Pager\Pager.php(125): CodeIgniter\View\View->render('App\\Views\\Pager...')
+#2 C:\xampp\htdocs\ci4\system\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('orang', 'orang_paginatio...')
+#3 C:\xampp\htdocs\ci4\app\Views\orang\index.php(29): CodeIgniter\Pager\Pager->links('orang', 'orang_paginatio...')
+#4 C:\xampp\htdocs\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('orang/index', Array, true)
+#7 C:\xampp\htdocs\ci4\app\Controllers\Orang.php(24): view('orang/index', Array)
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Orang->index()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-06-11 01:59:57 --> Invalid file: App\Views\Pager\orang_pagination.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pager...')
+#1 C:\xampp\htdocs\ci4\system\Pager\Pager.php(125): CodeIgniter\View\View->render('App\\Views\\Pager...')
+#2 C:\xampp\htdocs\ci4\system\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('orang', 'orang_paginatio...')
+#3 C:\xampp\htdocs\ci4\app\Views\orang\index.php(29): CodeIgniter\Pager\Pager->links('orang', 'orang_paginatio...')
+#4 C:\xampp\htdocs\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('orang/index', Array, true)
+#7 C:\xampp\htdocs\ci4\app\Controllers\Orang.php(24): view('orang/index', Array)
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Orang->index()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-06-11 02:36:35 --> Undefined variable $orang
+#0 C:\xampp\htdocs\ci4\app\Controllers\Orang.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Orang->index()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 02:38:02 --> Call to a member function paginate() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Orang->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-11 02:38:48 --> Call to a member function paginate() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Orang->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-11 02:43:03 --> Call to a member function paginate() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Orang->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-11 02:43:15 --> Call to a member function paginate() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Orang->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
